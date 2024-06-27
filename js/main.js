@@ -22,7 +22,7 @@ createApp({
             .then(function(response){
             const result = response.data.response;
             console.log(result);
-            container.innerHTML += ``
+            container.innerHTML += `<span>Mail: ${result}</span> <br>`
             });
         }
         
