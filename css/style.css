@@ -7,3 +7,10 @@ body{
     background-color: black;
     color: white;
 }
+
+li{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border: 1px solid red;
+    background-color: darkgreen;
+}
